@@ -1,0 +1,127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', 'censorify' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose publish [ 'censorify' ]
+5 verbose cache add [ 'censorify', null ]
+6 verbose cache add name=undefined spec="censorify" args=["censorify",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'censorify',
+7 verbose parsed url   path: 'censorify',
+7 verbose parsed url   href: 'censorify' }
+8 silly lockFile af5bf94b-censorify censorify
+9 verbose lock censorify /Users/akash-mac/.npm/af5bf94b-censorify.lock
+10 silly lockFile af5bf94b-censorify censorify
+11 silly lockFile af5bf94b-censorify censorify
+12 verbose addNamed [ 'censorify', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 7826f41b-censorify censorify@
+15 verbose lock censorify@ /Users/akash-mac/.npm/7826f41b-censorify.lock
+16 silly addNameRange { name: 'censorify', range: '*', hasData: false }
+17 verbose request where is /censorify
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id c784ce346a99cb14
+20 verbose url raw /censorify
+21 verbose url resolving [ 'https://registry.npmjs.org/', './censorify' ]
+22 verbose url resolved https://registry.npmjs.org/censorify
+23 verbose request where is https://registry.npmjs.org/censorify
+24 info trying registry request attempt 1 at 00:37:51
+25 http GET https://registry.npmjs.org/censorify
+26 http 200 https://registry.npmjs.org/censorify
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Thu, 29 Jan 2015 05:37:51 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"4K9BTNA4EQ9ZUQBN1DA0SSMY1"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '1510',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1422509871.835160,VS0,VE68',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'censorify', range: '*', hasData: true }
+29 silly addNameRange versions [ 'censorify', [ '0.1.1' ] ]
+30 verbose addNamed [ 'censorify', '0.1.1' ]
+31 verbose addNamed [ '0.1.1', '0.1.1' ]
+32 silly lockFile 49937795-censorify-0-1-1 censorify@0.1.1
+33 verbose lock censorify@0.1.1 /Users/akash-mac/.npm/49937795-censorify-0-1-1.lock
+34 silly lockFile 49937795-censorify-0-1-1 censorify@0.1.1
+35 silly lockFile 49937795-censorify-0-1-1 censorify@0.1.1
+36 silly lockFile 7826f41b-censorify censorify@
+37 silly lockFile 7826f41b-censorify censorify@
+38 silly publish { name: 'censorify',
+38 silly publish   version: '0.1.1',
+38 silly publish   description: 'Censors words out of the text',
+38 silly publish   main: 'censortext',
+38 silly publish   repository:
+38 silly publish    { type: 'git',
+38 silly publish      url: 'http://github.com/bwdayley/nodebook/tree/master/ch03/censorify' },
+38 silly publish   keywords: [ 'censor', 'words' ],
+38 silly publish   dependencies: {},
+38 silly publish   engines: { node: '*' },
+38 silly publish   readme: 'For learning purposes only.\n',
+38 silly publish   readmeFilename: 'README.md',
+38 silly publish   _id: 'censorify@0.1.1',
+38 silly publish   scripts: {},
+38 silly publish   _shasum: 'e774e6ea204c252fb29afe97e1c786dda40078af',
+38 silly publish   _from: 'censorify@' }
+39 info prepublish censorify@0.1.1
+40 verbose request where is /censorify
+41 verbose request registry https://registry.npmjs.org/
+42 verbose url raw /censorify
+43 verbose url resolving [ 'https://registry.npmjs.org/', './censorify' ]
+44 verbose url resolved https://registry.npmjs.org/censorify
+45 verbose request where is https://registry.npmjs.org/censorify
+46 info trying registry request attempt 1 at 00:37:51
+47 http PUT https://registry.npmjs.org/censorify
+48 http 403 https://registry.npmjs.org/censorify
+49 verbose headers { date: 'Thu, 29 Jan 2015 05:37:52 GMT',
+49 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'cache-control': 'max-age=60',
+49 verbose headers   'content-length': '1768',
+49 verbose headers   'accept-ranges': 'bytes',
+49 verbose headers   via: '1.1 varnish',
+49 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+49 verbose headers   'x-cache': 'MISS',
+49 verbose headers   'x-cache-hits': '0',
+49 verbose headers   'x-timer': 'S1422509872.094864,VS0,VE243',
+49 verbose headers   'keep-alive': 'timeout=10, max=50',
+49 verbose headers   connection: 'Keep-Alive' }
+50 error publish Failed PUT 403
+51 error Error: forbidden cannot modify pre-existing version: 0.1.1
+51 error old={"author":{"name":"Brad Dayley"},"name":"censorify","version":"0.1.1","description":"Censors words out of text","main":"censortext","repository":{"type":"git","url":"https://github.com/sisingh/nodebook-ch03-censorify"},"keywords":["censor","words"],"dependencies":{},"engines":{"node":"*"},"bugs":{"url":"https://github.com/sisingh/nodebook-ch03-censorify/issues"},"homepage":"https://github.com/sisingh/nodebook-ch03-censorify","_id":"censorify@0.1.1","dist":{"shasum":"359a8af77858685bf2926c93ec3fb582ae704aa9","tarball":"http://registry.npmjs.org/censorify/-/censorify-0.1.1.tgz"},"_from":".","_npmVersion":"1.3.21","_npmUser":{"name":"sisingh","email":"singh_siddhu@yahoo.com"},"maintainers":[{"name":"sisingh","email":"singh_siddhu@yahoo.com"}]}
+51 error new={"name":"censorify","version":"0.1.1","description":"Censors words out of the text","main":"censortext","repository":{"type":"git","url":"http://github.com/bwdayley/nodebook/tree/master/ch03/censorify"},"keywords":["censor","words"],"dependencies":{},"engines":{"node":"*"},"readme":"For learning purposes only.\u000a","readmeFilename":"README.md","_id":"censorify@0.1.1","scripts":{},"_shasum":"e774e6ea204c252fb29afe97e1c786dda40078af","_from":"censorify@","_npmVersion":"1.4.28","_npmUser":{"name":"acsant","email":"acsant@uwaterloo.ca"},"maintainers":[{"name":"acsant","email":"acsant@uwaterloo.ca"}],"dist":{"shasum":"e774e6ea204c252fb29afe97e1c786dda40078af","tarball":"http://registry.npmjs.org/censorify/-/censorify-0.1.1.tgz"}}: censorify
+51 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+51 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+51 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+51 error     at Request.emit (events.js:98:17)
+51 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+51 error     at Request.emit (events.js:117:20)
+51 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+51 error     at IncomingMessage.emit (events.js:117:20)
+51 error     at _stream_readable.js:944:16
+51 error     at process._tickCallback (node.js:442:13)
+52 error If you need help, you may report this *entire* log,
+52 error including the npm and node versions, at:
+52 error     <http://github.com/npm/npm/issues>
+53 error System Darwin 14.0.0
+54 error command "node" "/usr/local/bin/npm" "publish" "censorify"
+55 error cwd /Users/akash-mac/Development/webdev/censorify
+56 error node -v v0.10.36
+57 error npm -v 1.4.28
+58 verbose exit [ 1, true ]
